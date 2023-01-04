@@ -18,28 +18,29 @@ header{
 .menu{
   max-width: 40px;
   position:absolute;
-  top:7px;
+  top:30px;
   left:20px;
 }
 .cart{
   max-width: 40px;
   position:absolute;
   right:40px;
-  top:7px;
+  top:30px;
 }
 .account{
   max-width: 38px;
-  top:9px;
+  top:30px;
   position:absolute;
   right:80px;
 }
 .logo{
-  left:42.5%;
-  top:0px;
+  position:relative;
+  top:10px;
   max-width: 50px;
-  position: absolute;
 }
 header h1{
+  position:relative;
+  padding-bottom:20px;
   color:#470500;
   display:inline-block;
   font-weight: 100;
