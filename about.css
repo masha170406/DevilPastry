@@ -1,0 +1,43 @@
+.about__me{
+    margin-top:2rem;
+
+}
+
+.about__me-container{
+    display:grid;
+    grid-template-columns: 40% 60%;
+    gap:5rem;
+
+}
+
+.about__me-right>p{
+    margin-top: 1.6rem 0 2.5rem;
+
+}
+
+@media screen and (max-width:1024px){
+    .about__me{
+        margin-top: 2rem;
+    }
+    .about__me-container{
+        grid-template-columns: 1fr;
+        gap:4rem
+    }
+    .about__me-left{
+        width: 80%;
+        margin:0 auto;
+    }
+}
+@media screen and (max-width:600px){
+    .about__me{
+        margin-top: 2rem;
+    }
+    .about__me-container{
+        grid-template-columns: 1fr;
+        gap:3rem
+    }
+    .about__me-left{
+        width: 80%;
+        margin:0 auto;
+    }
+}

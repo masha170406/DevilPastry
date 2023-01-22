@@ -1,0 +1,27 @@
+
+.recepies{
+    margin-top: 4rem;
+}
+
+.recipies__container{
+display: grid;
+grid-template-columns: repeat(3, 1fr);
+gap:2rem;
+}
+
+@media screen and (max-width:1024px){
+    .recipies__container{
+        width: 80%;
+        grid-template-columns: 1fr 1fr;
+        }
+}
+@media screen and (max-width:600px){
+    .recipies__container{
+        width: 90%;
+        grid-template-columns: 1fr;
+        }
+        
+.recepies{
+    margin-top: 2rem;
+}
+}
