@@ -210,15 +210,15 @@ h3{
    
 }
 #birthday_cakes{
-   background-image: url("/images/IMG_0465.jpg");
+   background-image: url("IMG_0465.jpg");
 
 }
 #custom_cakes{
-  background-image: url("/images/IMG_0466.jpg");
+  background-image: url("IMG_0466.jpg");
 }
 
 #small_desserts{
-   background-image: url("/images/IMG_0467.jpg");
+   background-image: url("IMG_0467.jpg");
 }
 .categories__right p, .categories__right h5{
    /*display: none;*/
